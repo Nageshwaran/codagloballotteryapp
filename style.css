@@ -1,0 +1,35 @@
+.selected {
+  background-color: #cccccc;
+}
+body {
+  margin: 0;
+}
+.list {
+  padding-top: 0px;
+}
+.list .side {
+  flex: inherit;
+  padding: 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 18%;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 89px;
+  height: 106px;
+  padding: 8px;
+  place-items: center;
+  position: relative;
+
+  background: rgb(7, 7, 10);
+  border: 2px solid rgb(243, 231, 231);
+  color: rgb(199, 211, 209);
+  text-align: center;
+
+  font: 72px Bold, sans-serif;
+}
