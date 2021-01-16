@@ -4,16 +4,6 @@ import CandidatesList from "./CandidatesList";
 import Lobby from "./Lobby";
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      userList: [],
-      userListfilter: [],
-      shortList: [],
-      rejected: []
-    };
-  }
-
   render() {
     return (
       <div>
